@@ -29,9 +29,6 @@ const onSubmit = event => {
     });
 }
 
-
-
-
   // make a post request to retrieve a token from the api
   // when you have handled the token, navigate to the BubblePage route
   return (
@@ -43,19 +40,19 @@ const onSubmit = event => {
       <form onSubmit={onSubmit}>
         <h2>Login</h2>
         <label htmlFor="username">
-          Username: 
           <input
           onChange={onChange}
           type="text"
           name="username"
+          placeholder='Username'
           />
         </label>
         <label htmlFor="password">
-          Password: 
           <input
           onChange={onChange}
           type="password"
           name="password"
+          placeholder='Password'
           />
         </label>
         <button>Submit</button>
