@@ -2,8 +2,8 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import BubblePage from './BubblePage'
 
-import mockFetchColors from '../api/fetchColors'
-jest.mock('../api/fetchColors')
+import mockFetchColor from '../api/fetchColor'
+jest.mock('../api/fetchColor')
 
 const fetchResults = {data : [
   {
@@ -89,7 +89,7 @@ const fetchResults = {data : [
 test('Fetches data and renders the bubbles', async () => {
   // Finish this test
 
- mockFetchColors.mockResolvedValueOnce(fetchResults)
+ mockFetchColor.mockResolvedValueOnce(fetchResults)
 
   const bp = render(<BubblePage />)
   bp.debug()
