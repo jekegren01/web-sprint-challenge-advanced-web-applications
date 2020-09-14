@@ -4,7 +4,7 @@ import { Route } from "react-router-dom";
 import Login from "./components/Login";
 import "./styles.scss";
 import PrivateRoute from "./PrivateRoute";
-import BubblePage from './components/BubblePage'
+import BubblePage from './components/BubblePage';
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
           Build a PrivateRoute component that will 
           display BubblePage when you're authenticated 
         */}
-        <PrivateRoute path='bubble-page' component={BubblePage} />
+        <PrivateRoute path='/bubble-page' component={BubblePage} />
       </div>
   );
 }
