@@ -1,4 +1,4 @@
-# Advanced Web Applications Sprint Challenge
+<!-- # Advanced Web Applications Sprint Challenge
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
@@ -9,7 +9,6 @@ This is an individual assessment. All work must be your own. Your challenge scor
 You are not allowed to collaborate during the sprint challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your TL if you need direction. 
 
 _You have **three hours** to complete this challenge. Plan your time accordingly._
-
 
 ## Introduction
 
@@ -28,9 +27,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain what a token is used for.
+  A token is a method by which to authenticate a users connection to an API and allow transfer of Data.
+
 2. What steps can you take in your web apps to keep your data secure?
+  There are many methods: cookies, tokens, encryption, etc.
+
 3. Describe how web servers work.
+web servers respond to api requests for information in the form of get, put, post, delete, and pull requests.  These servers either update state, or return information of state.
+
 4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+  Post = create
+  get = read
+  put, patch = update
+  delete = delete
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -99,4 +108,4 @@ Follow these steps for completing your project.
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete after receiving your pull-request
 
-
+ -->
